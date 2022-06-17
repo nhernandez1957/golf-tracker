@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/000/198/614/original/vintage-golf-pattern-vector.jpg);
+  min-height: 100vh;
 }
 
 .App-logo {
