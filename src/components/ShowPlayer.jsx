@@ -37,9 +37,9 @@ const ShowPlayer = (props) => {
     },[])
     return(
         <div>
-            <Link className="btn btn-primary float-end m-5" to="/">Home</Link>
             <div className="w-75 mx-auto bg-white opacity-75">
-                <h1 className="display-1">{player.Name}</h1>
+                <Link className="btn btn-primary float-end m-5" to="/">Home</Link>
+                <h1 className="d-flex display-1">{player.Name}</h1>
                 <img src={instPlayer.PhotoUrl} alt={instPlayer.Name} />
                 <h4 className="display-4">Country: {player.Country}</h4>
                 <h4 className="display-4">Score: {player.TotalScore}</h4>

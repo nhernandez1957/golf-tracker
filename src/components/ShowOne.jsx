@@ -18,8 +18,10 @@ const ShowOne = (props) => {
     },[])
     return (
         <div>
+            <div className="home-button">
+                <Link className="btn btn-primary m-1" to="/">Home</Link>
+            </div>
             <div className="w-75 mx-auto">
-            <Link className="btn btn-primary float-end m-0" to="/">Home</Link>
             <h1 className="d-flex display-1 m-0 bg-light opacity-75">{tournament.Name}</h1>
             <h4 className="d-flex display-4 m-0 bg-light opacity-75">{tournament.Location}</h4>
             <h4 className="d-flex display-4 bg-light opacity-75">{tournament.Venue}</h4>

@@ -38,3 +38,10 @@
     transform: rotate(360deg);
   }
 }
+
+.home-button {
+  width: 75%;
+  margin:auto;
+  display: flex;
+  justify-content: end;
+}
